@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Product name 1",
+        "price": "9999",
+        "detail": "Created By Apple",
+        "image": "https://picsum.photos/200/301"
+    },
+    {
+        "name": "Product name 2",
+        "price": "95000",
+        "detail": "Created By Banana",
+        "image": "https://picsum.photos/200/302"
+    },
+    {
+        "name": "Product name 3",
+        "price": "9992",
+        "detail": "Created By Fruit",
+        "image": "https://picsum.photos/200/303"
+    },
+    {
+        "name": "Product name 4",
+        "price": "95000",
+        "detail": "Created By Veg",
+        "image": "https://picsum.photos/200/304"
+    },
+    {
+        "name": "Product name 5",
+        "price": "9992",
+        "detail": "Created By Grapes",
+        "image": "https://picsum.photos/200/305"
+    },
+    {
+        "name": "Product name 6",
+        "price": "95000",
+        "detail": "Created By Pineapple",
+        "image": "https://picsum.photos/200/306"
+    }
+]
