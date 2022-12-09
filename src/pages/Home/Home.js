@@ -12,13 +12,16 @@ function Home() {
     // let data = "my data";
 
     useEffect(() => {
-        fetch("Product.json" )
+        fetch("https://fakestoreapi.com/products" )
         // calling json function
         .then(res => res.json())
         // listening for json function to return.
         .then(res => {
-            setProducts(res);
             console.log("Fetche called");
+            res.forEach(o=> {
+                o.rating.rate = Math.ceil(Number(o.rating.rate));
+            })
+            setProducts(res);
         })
     }, [click])
 
