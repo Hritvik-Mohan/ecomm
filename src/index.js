@@ -4,10 +4,12 @@ import "./index.css";
 import Home from "./pages/Home/Home";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
+import Register from "./pages/Register/Register";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <Home />
+  // <Home />
+  <Register />
   /* </React.StrictMode> */
 );
