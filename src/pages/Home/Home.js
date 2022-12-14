@@ -17,7 +17,7 @@ function Home() {
         .then(res => res.json())
         // listening for json function to return.
         .then(res => {
-            console.log("Fetche called");
+            console.log("Fetch called");
             res.forEach(o=> {
                 o.rating.rate = Math.ceil(Number(o.rating.rate));
             })
@@ -29,7 +29,7 @@ function Home() {
         <div>
             <Header/>
             <div class="container">
-                <h3>{ products && products.length }</h3>
+                {/* <h3>{ products && products.length }</h3> */}
                 <div className="row">
                     {
                         products.map((product) => (
